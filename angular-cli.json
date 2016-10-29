@@ -18,9 +18,12 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css"
+        "styles.css",
+        "../resources/bootstrap/css/bootstrap.min.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../resources/bootstrap/js/bootstrap.min.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
